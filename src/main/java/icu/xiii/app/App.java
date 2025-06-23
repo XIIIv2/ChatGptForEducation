@@ -19,6 +19,7 @@ public class App {
 
         try {
             ChromeOptions options = new ChromeOptions();
+            // for win  C:\Users\<твой_пользователь>\AppData\Local\Google\Chrome\User Data
             options.addArguments("user-data-dir=/Users/xiii/Library/Application Support/Google/Chrome");
             options.addArguments("profile-directory=Default");
 
